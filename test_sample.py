@@ -9,4 +9,4 @@ class TestMath(unittest.TestCase):
         self.assertEqual(5 - 3, 1)  # This will fail on purpose
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner=unittest.TextTestRunner())
